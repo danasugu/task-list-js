@@ -16,7 +16,11 @@ function loadEventListeners(){
 
   //add task
 
-  function addTask() {
+  function addTask(e) {
+    if(taskInput.value === '') {
+      alert('add some task');
+    }
     
+    e.preventDefault();
   }
 }
