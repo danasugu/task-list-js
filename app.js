@@ -22,7 +22,7 @@ function loadEventListeners() {
     }
     //create li element
     const li = document.createElement('li');
-
+    //add class
     li.className = 'collection-item';
     e.preventDefault();
   }
