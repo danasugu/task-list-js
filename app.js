@@ -10,17 +10,19 @@ const taskInput = document.querySelector('#task');
 
 loadEventListeners();
 
-function loadEventListeners(){
+function loadEventListeners() {
   //add task event
   form.addEventListener('submit', addTask);
 
   //add task
 
   function addTask(e) {
-    if(taskInput.value === '') {
+    if (taskInput.value === '') {
       alert('add some task');
     }
-    
+
+    const li = document.createElement('li');
+
     e.preventDefault();
   }
 }
