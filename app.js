@@ -22,7 +22,6 @@ function loadEventListeners() {
     }
 
     const li = document.createElement('li');
-    li.className = 'collection-item';
 
     e.preventDefault();
   }
