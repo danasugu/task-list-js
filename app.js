@@ -20,8 +20,9 @@ function loadEventListeners() {
     if (taskInput.value === '') {
       alert('add some task');
     }
-
+    //create li element
     const li = document.createElement('li');
+
     li.className = 'collection-item';
     e.preventDefault();
   }
