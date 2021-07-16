@@ -27,7 +27,7 @@ function loadEventListeners() {
 
     //create text node and append to li
 
-    li.appendChildd(document.createTextNode(taskInput.value));
+    li.appendChild(document.createTextNode(taskInput.value));
     e.preventDefault();
   }
 }
