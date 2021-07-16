@@ -29,7 +29,7 @@ function loadEventListeners() {
     li.appendChild(document.createTextNode(taskInput.value));
 
     //create new link element
-    
+    const link = document.createElement('a');
     e.preventDefault();
   }
 }
