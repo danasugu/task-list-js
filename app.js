@@ -24,10 +24,10 @@ function loadEventListeners() {
     const li = document.createElement('li');
     //add class
     li.className = 'collection-item';
-  
+
     //create text node and append to li
 
-  
+    li.appendChildd(document.createTextNode(taskInput.value));
     e.preventDefault();
   }
 }
