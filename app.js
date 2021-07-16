@@ -18,7 +18,7 @@ function loadEventListeners() {
 
   function addTask(e) {
     if (taskInput.value === '') {
-      alert('add some task');
+      alert('add a task');
     }
     //create li element
     const li = document.createElement('li');
