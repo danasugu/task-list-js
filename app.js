@@ -26,8 +26,10 @@ function loadEventListeners() {
     li.className = 'collection-item';
 
     //create text node and append to li
-
     li.appendChild(document.createTextNode(taskInput.value));
+
+    //create new link element
+    
     e.preventDefault();
   }
 }
