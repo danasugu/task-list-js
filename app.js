@@ -42,7 +42,7 @@ function loadEventListeners() {
 
     //append li 2 ul
     taskList.appendChild(li);
-    
+
     e.preventDefault();
   }
 }
