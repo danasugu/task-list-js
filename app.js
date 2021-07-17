@@ -44,6 +44,7 @@ function loadEventListeners() {
     taskList.appendChild(li);
 
     //clear input
+    taskInput.value = '';
 
     e.preventDefault();
   }
