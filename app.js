@@ -30,6 +30,7 @@ function loadEventListeners() {
 
     //create new link element
     const link = document.createElement('a');
+    //add class
     e.preventDefault();
   }
 }
