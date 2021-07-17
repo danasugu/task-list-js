@@ -34,8 +34,6 @@ function loadEventListeners() {
     //add class
     link.className = 'delete-item-secondary-contect';
 
-    //append link to li
-    li.appendChild(link);
     //add icon html
     link.innerHtml = '<i class="fa fa-remove"></i>';
     e.preventDefault();
