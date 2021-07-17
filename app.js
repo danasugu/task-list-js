@@ -35,7 +35,7 @@ function loadEventListeners() {
     link.className = 'delete-item-secondary-contect';
 
     //add icon html
-link.innerHtml = '<i class="fa fa-remove"></i>';
+    link.innerHtml = '<i class="fa fa-remove"></i>';
     e.preventDefault();
   }
 }
