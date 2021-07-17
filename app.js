@@ -30,7 +30,10 @@ function loadEventListeners() {
 
     //create new link element
     const link = document.createElement('a');
+
     //add class
+    link.className = 'delete-item-secondary-contect';
+
     e.preventDefault();
   }
 }
