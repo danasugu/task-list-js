@@ -40,7 +40,8 @@ function loadEventListeners() {
     //append link to li
     li.appendChild(link);
 
-    
+    //append li 2 ul
+
     e.preventDefault();
   }
 }
