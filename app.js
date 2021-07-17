@@ -36,6 +36,11 @@ function loadEventListeners() {
 
     //add icon html
     link.innerHtml = '<i class="fa fa-remove"></i>';
+
+    //append link to li
+    li.appendChild(link);
+
+    
     e.preventDefault();
   }
 }
