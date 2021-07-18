@@ -47,8 +47,8 @@ function loadEventListeners() {
     //clear input
     taskInput.value = '';
 
-    //remove task
-
     e.preventDefault();
   }
+
+  //remove task
 }
