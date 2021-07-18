@@ -53,7 +53,7 @@ function addTask(e) {
 // Remove Task
 function removeTask(e) {
   if (e.target.parentElement.classList.contains('delete-item')) {
-    if (confirm('Are You Sure?')) {
+    if (confirm('Ado yo mean it?')) {
       e.target.parentElement.parentElement.remove();
     }
   }
@@ -67,8 +67,6 @@ function clearTasks() {
   while (taskList.firstChild) {
     taskList.removeChild(taskList.firstChild);
   }
-
-  // https://jsperf.com/innerhtml-vs-removechild
 }
 
 // Filter Tasks
