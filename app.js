@@ -49,6 +49,6 @@ function loadEventListeners() {
 
     e.preventDefault();
   }
-
-  //remove task
 }
+
+//remove task
