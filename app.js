@@ -52,3 +52,6 @@ function loadEventListeners() {
 }
 
 //remove task
+function removeTask(e) {
+    
+}
