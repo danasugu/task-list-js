@@ -53,5 +53,6 @@ function loadEventListeners() {
 
 //remove task
 function removeTask(e) {
-    
+  if (e.target.parentElement.classList.contains('delete-item')) {
+  }
 }
