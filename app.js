@@ -53,7 +53,7 @@ function addTask(e) {
 // Remove Task
 function removeTask(e) {
   if (e.target.parentElement.classList.contains('delete-item')) {
-    if (confirm('Ado yo mean it?')) {
+    if (confirm('Do you mean it?')) {
       e.target.parentElement.parentElement.remove();
     }
   }
