@@ -14,6 +14,8 @@ function loadEventListeners() {
   //add task event
   form.addEventListener('submit', addTask);
 
+  //remove task events
+
   //add task
   function addTask(e) {
     if (taskInput.value === '') {
