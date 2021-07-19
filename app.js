@@ -49,3 +49,11 @@ function addTask(e) {
 
   e.preventDefault();
 }
+// Remove Task
+function removeTask(e) {
+  if (e.target.parentElement.classList.contains('delete-item')) {
+    if (confirm('Do you mean it?')) {
+      e.target.parentElement.parentElement.remove();
+    }
+  }
+}
