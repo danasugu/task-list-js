@@ -57,7 +57,15 @@ function removeTask(e) {
     }
   }
 }
+// Clear Tasks
+function clearTasks() {
+  // taskList.innerHTML = '';
 
+  // Faster
+  while (taskList.firstChild) {
+    taskList.removeChild(taskList.firstChild);
+  }
+}
 // Filter Tasks
 function filterTasks(e) {
   const text = e.target.value.toLowerCase();
