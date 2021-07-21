@@ -54,7 +54,9 @@ function addTask(e) {
 }
 
 //store task
-function storeTaskInLocalStorage(task) {}
+function storeTaskInLocalStorage(task) {
+  let tasks;
+}
 
 // Remove Task
 function removeTask(e) {
