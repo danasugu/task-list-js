@@ -45,12 +45,17 @@ function addTask(e) {
   taskList.appendChild(li);
 
   //store in local storage ls
+  storeTaskInLocalStorage();
 
   // Clear input
   taskInput.value = '';
 
   e.preventDefault();
 }
+
+//store task
+function storeTaskInLocalStorage() {}
+
 // Remove Task
 function removeTask(e) {
   if (e.target.parentElement.classList.contains('delete-item')) {
