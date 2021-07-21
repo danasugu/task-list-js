@@ -61,6 +61,7 @@ function storeTaskInLocalStorage(task) {
   } else {
     tasks = JSON.parse(localStorage.getItem('tasks'));
   }
+  tasks.push(task);
 }
 
 // Remove Task
