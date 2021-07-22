@@ -11,7 +11,7 @@ loadEventListeners();
 // Load all event listeners
 function loadEventListeners() {
   // DOM Load event
-
+  document.addEventListener('DOMContentLoaded', getTasks);
   // Add task event
   form.addEventListener('submit', addTask);
   // Remove task event
