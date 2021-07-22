@@ -22,6 +22,16 @@ function loadEventListeners() {
   filter.addEventListener('keyup', filterTasks);
 }
 
+//Get tasks from lS
+// Get Tasks from LS
+function getTasks() {
+  let tasks;
+  if(localStorage.getItem('tasks') === null){
+    tasks = [];
+  } else {
+    tasks = JSON.parse(localStorage.getItem('tasks'));
+  }
+
 // Add Task
 function addTask(e) {
   if (taskInput.value === '') {
